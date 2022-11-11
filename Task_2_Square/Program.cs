@@ -7,8 +7,8 @@ Console.WriteLine("Введите первое число");
 string str = Console.ReadLine();
 int a = int.Parse(str);
 Console.WriteLine("Введите второе число");
-string str2 = Console.ReadLine();
-int b = int.Parse(str2);
+str = Console.ReadLine();
+int b = int.Parse(str);
 if (b * b == a)
 {
     Console.WriteLine("Первое число является квадротом второго числа.");
